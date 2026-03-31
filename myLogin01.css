@@ -1,0 +1,198 @@
+  html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+    } 
+    body {
+	    line-height: 1;
+    }
+    a {
+        text-decoration: none;
+        color: #666;
+    }
+    #whole_wrapper>.head {
+        background-color: #4d6c8b;
+    }
+    #whole_wrapper>.head header {
+        position: relative;
+        text-align: center;
+        z-index: 14;
+    }
+    #whole_wrapper>.head header hgroup {
+        padding-top: 80px;
+    }
+#whole_wrapper>.head header hgroup p.title a {
+    font-size: 2.4em;
+    color: #fff;
+}
+#whole_wrapper>.head header hgroup p.subtitle {
+    padding: 8px 0;
+}
+#whole_wrapper>.head header hgroup p.subtitle small {
+    color: #a3bfdb;
+    font-size: 1.1em;
+    padding: 0 10px;
+}
+
+#whole_wrapper div#body div#cols div.entry-area {
+    width: 730px;
+    float: left;
+}
+div#body div#cols div.entry-area {
+    float: none !important;
+    width: auto !important;
+}    
+
+.layerbox {
+    margin: 0 auto;
+    position: relative;
+    width: 400px;
+    -moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}    
+
+.layerbox#login-static {
+    line-height: 12px;
+}    
+.layerbox .table {
+    background-color: #fff;
+    border: 1px solid #bbb;
+    color: #666;
+}
+header hgroup {
+    padding-bottom: 20px !important;
+}
+header .subtitle small {
+    color: #333 !important;
+}    
+#left_nav {
+    color: #999;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    font-size: 12px;
+    padding-left: 5px;
+    z-index: 1000;
+}
+#left_nav #to_home {
+    padding-right: .5em;
+    font-size: 1.1em;
+    margin-top: .9em;
+}
+#left_nav>li {
+    float: left;
+    margin-right: 1.5em;
+    margin-top: 1.3em;
+}   
+#left_nav #to_home a {
+    color: #ccc;
+    text-indent: inherit;
+    width: inherit;
+    height: 20px;
+    line-height: 20px;
+    font-family: verdana !important;
+}
+header #left_nav #to_home span {
+    color: #000 !important;
+    font-weight: bold !important;
+}    
+
+div#body div#cols {
+    border: none !important;
+    padding-top: 100px;
+}    
+
+.layerbox .table .head, .layerbox .table .header {
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: 15px;
+}
+.layerbox#login-static div.header button.delete {
+    display: none;
+}
+.layerbox .table .head strong, .layerbox .table .header strong {
+    color: #000;
+    font-size: 1em;
+}
+.layerbox .table div.body {
+    padding: 20px 0;
+}
+
+.layerbox#login-static div.header .rememberme {
+    float: right;
+    padding-right: 10px;
+}
+
+.layerbox#login-static div.body dl {
+    padding: 0 50px;
+}    
+.layerbox#login-static div.body dl dt {
+    text-align: left;
+    font-size: 11px;
+    margin: 15px 0 5px;
+    line-height: 11px;
+}
+.layerbox#login-static div.body dl dd {
+    text-align: left;
+}
+
+.layerbox#login-static div.body input.text {
+    width: 280px;
+    margin-right: auto;
+    padding: 5px;
+    font-size: 1.2em;
+}    
+
+.layerbox#login-static div.body div.btns {
+    text-align: center;
+}    
+
+.layerbox .table div.body div.btns {
+    margin-top: 20px;
+}    
+
+.layerbox#login-static div.body p {
+    margin: 10px 0;
+    text-align: center;
+}
+.btn.btn_submit {
+    background-color: #fff !important;
+    border: 1px solid #eee !important;
+    border-radius: 20px !important;
+    color: #999 !important;
+    font-weight: normal !important;
+}    
+
+.btn.btn_submit, .btn.btn_save {
+    padding: 10px 40px !important;
+    background-color: #3c9;
+    border: 1px solid #3c9;
+    color: #fff;
+}    
+
+.layerbox#login-static .footer {
+    border-top: 1px solid #ccc;
+    padding-top: 2em;
+}    
+
+.layerbox .table div.tail, .layerbox .table div.footer {
+    font-size: 14px;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+}
