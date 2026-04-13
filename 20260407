@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 페이지</title>
+    <style>
+        /* 깔끔한 폰트와 배경 설정 */
+        body {
+            font-family: 'Pretendard', 'Malgun Gothic', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        /* 중앙 정렬 컨테이너 */
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        /* 헤더 부분 */
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .profile-pic {
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            background-color: #ddd; /* 사진이 없을 경우 대비 */
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        /* 본문 섹션 */
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+            color: #2980b9;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #eee;
+        }
+
+        /* 하단 링크 */
+        .contact-links a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        .contact-links a:hover {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="https://www.syu.ac.kr/wp-content/themes/syu-main/images/logo/120_logo.png" alt="프로필 사진" class="profile-pic">
+        <h1>안녕하세요, 박재정입니다! </h1>
+        <p>삼육대학교 웹프 과제</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <ul>
+            <li><strong>이름:</strong> 박재정</li>
+            <li><strong>나이:</strong> 2001년</li>
+            <li><strong>관심분야:</strong> 프로그래밍, 클래식음악, 자동차</li>
+            <li><strong>MBTI:</strong> istp</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>자기개발</li>
+            <li>음악 즐겨듣기</li>
+            <li>드라이브</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <div class="contact-links">
+            <p>📧 Email: <a href="mailto:x7010821@gmail.com">x7010821@gmail.com</a></p>
+            <p>🔗 insta: <a href="https://instagram.com" target="_blank">instagram</a></p>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
